@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaCobranza.BusinessInterface\SistemaCobranza.BusinessInterface.csproj" />
+    <ProjectReference Include="..\SistemaCobranza.DataInterface\SistemaCobranza.DataInterface.csproj" />
+    <ProjectReference Include="..\SistemaCobranza.DataLayer\SistemaCobranza.DataLayer.csproj" />
+    <ProjectReference Include="..\SistemaCobranza.Types\SistemaCobranza.Types.csproj" />
+  </ItemGroup>
+
+</Project>
